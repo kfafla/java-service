@@ -9,10 +9,10 @@ import java.util.List;
 
 @RestController
 @SpringBootApplication
-public class JavaApplication {
+public class JavaServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(JavaApplication.class, args);
+        SpringApplication.run(JavaServiceApplication.class, args);
     }
     @GetMapping("/list")
     public List<String> getList() {
